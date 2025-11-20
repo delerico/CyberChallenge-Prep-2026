@@ -1,46 +1,71 @@
-# CyberChallenge-Prep-2026
+# **CyberChallenge.IT – Prep 2026**
 
-Repository dedicata alla preparazione del pretest CyberChallenge.IT.
-Qui raccolgo:
-- esercizi in linguaggio C (puntatori, memoria, cast, struct)
-- problemi di logica e ragionamento
-- note su networking e sistemi operativi
-- simulazioni e mini-quiz
-
-L’obiettivo è documentare in modo chiaro e continuo i progressi
-e creare una base solida per affrontare sia il pretest sia il percorso CyberChallenge.
+Repository dedicata alla preparazione del _pretest CyberChallenge.IT 2026_.  
+Raccoglie esercizi, appunti e materiale di studio organizzati in modo chiaro, per creare una base solida nelle aree fondamentali richieste dal pretest.
 
 ---
 
-## 📂 Struttura della repository
+## **Contenuti**
 
-### `/C`
-Esercizi e file di pratica in linguaggio C:
-- variabili e tipi
-- pointer arithmetic
-- array e memoria
-- cast (char*, int*)
-- struct + padding
+### **C Language**
+
+Esercizi mirati per il pretest:
+
+- puntatori e aritmetica dei puntatori
+    
+- cast (es. `char*` su `int*`)
+    
+- gestione della memoria e byte-level reading
+    
+- `sizeof`, padding e struct
+    
 - endianness
-- esercizi misti stile pretest
+    
+- overflow (signed/unsigned)
+    
 
-### `/logic`
-Problemi di logica:
-- sequenze numeriche
+Percorso pensato per padroneggiare la lettura del C a basso livello, fondamentale nel pretest.
+
+---
+
+### **Logic & Reasoning**
+
+Esercizi di:
+
+- sequenze
+    
 - ragionamento deduttivo
-- combinazioni e conteggi
-- esercizi stile pretest
+    
+- conti veloci
+    
+- problemi stile CyberChallenge
+    
 
-### `/networking`
-Note e mini-esercizi su:
-- TCP/UDP
+---
+
+### **Networking Basics**
+
+Concetti fondamentali:
+
+- TCP vs UDP
+    
 - IP, subnet, maschere
-- porte e protocolli
-- routing di base
+    
+- porte, protocolli, servizi standard
+    
+- routing semplice
+    
 
-### `/os-basics`
-Concetti base di sistemi operativi:
+---
+
+### **Operating Systems (OS Basics)**
+
+Appunti su:
+
 - processi
+    
 - memoria
-- file system
-- permessi
+    
+- filesystem e permessi
+    
+- concetti base utili al reasoning nel test
