@@ -1,6 +1,6 @@
 /**
  * Pointer Level 2 – Modifica dell'elemento successivo tramite p++
- * Created by delerico on 20/11/2025
+ * Created by delerico on 23/11/2025
  *
  * Obiettivo:
  *  Mostrare come un puntatore passato a una funzione venga copiato,
