@@ -1,71 +1,109 @@
-# **CyberChallenge.IT – Prep 2026**
+# CyberChallenge.IT – Prep 2026
 
-Repository dedicata alla preparazione del _pretest CyberChallenge.IT 2026_.  
-Raccoglie esercizi, appunti e materiale di studio organizzati in modo chiaro, per creare una base solida nelle aree fondamentali richieste dal pretest.
+Repository dedicata alla preparazione completa al pretest e test CyberChallenge.IT 2026.  
+Raccoglie esercizi, appunti e codice organizzati per costruire una base solida nelle aree tecniche principali richieste dalla selezione: C, logica, reti, sistemi operativi e crittografia elementare.
+
+L’obiettivo è sviluppare padronanza sui concetti più ricorrenti nelle prove, con particolare attenzione alla lettura del C a basso livello e al reasoning.
 
 ---
 
-## **Contenuti**
+## C Language
 
-### **C Language**
-
-Esercizi mirati per il pretest:
+Esercizi specifici per la parte di C del pretest e del test, con focus su:
 
 - puntatori e aritmetica dei puntatori
     
-- cast (es. `char*` su `int*`)
+- dereferenziazione, `*(p+i)`, `p++`, `(*p)++`
     
-- gestione della memoria e byte-level reading
+- passaggio dei puntatori alle funzioni
     
-- `sizeof`, padding e struct
+- pointer-to-pointer
     
-- endianness
+- cast (`char*` su `int*`)
     
-- overflow (signed/unsigned)
+- byte-level reading
     
-
-Percorso pensato per padroneggiare la lettura del C a basso livello, fondamentale nel pretest.
+- endianess
+    
+- overflow signed/unsigned
+    
+- struct, padding, layout della memoria
+    
 
 ---
 
-### **Logic & Reasoning**
+## Logic & Reasoning
 
-Esercizi di:
+Esercizi e schemi per allenare:
 
-- sequenze
+- sequenze numeriche
     
 - ragionamento deduttivo
     
-- conti veloci
+- combinazioni
     
-- problemi stile CyberChallenge
+- conti logici rapidi
+    
+- problemi in stile CyberChallenge
     
 
 ---
 
-### **Networking Basics**
+## Networking Basics
 
-Concetti fondamentali:
+Concetti fondamentali per il reasoning di rete:
 
+- IP, subnet e maschere
+    
+- gateway, routing semplice
+    
 - TCP vs UDP
     
-- IP, subnet, maschere
+- porte e protocolli più comuni
     
-- porte, protocolli, servizi standard
-    
-- routing semplice
+- concetti di base su servizi e comunicazione
     
 
 ---
 
-### **Operating Systems (OS Basics)**
+## Operating Systems (OS Basics)
 
 Appunti su:
 
-- processi
+- stack, heap e segmentazione della memoria
     
-- memoria
+- processi e concetti fondamentali
+    
+- file descriptor essenziali
     
 - filesystem e permessi
     
-- concetti base utili al reasoning nel test
+
+---
+
+## Crypto Basics
+
+Fondamentali richiesti nel reasoning:
+
+- XOR
+    
+- shift e rotazioni
+    
+- base64
+    
+- cifrature semplici utilizzate nei quiz
+    
+
+---
+
+## Obiettivo
+
+Creare un percorso chiaro, progressivo e completamente documentato per affrontare con sicurezza sia il pretest che il test CyberChallenge.IT 2026.
+
+La repository funge anche da portfolio tecnico, mostrando i progressi e la padronanza degli argomenti chiave.
+
+---
+
+## Autore
+
+Materiale curato da **delerico**, come parte della preparazione intensiva alla CyberChallenge.IT 2026.
